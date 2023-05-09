@@ -1,14 +1,13 @@
 .cards__like {
-  margin: 0 0 5px 0;
+  margin: 5px 5px 1px 0;
   padding: 0;
-  min-width: 22px;
-  min-height: 19px;
+  background: transparent center;
+  color: black;
   border: none;
-  background: transparent url('../../../images/icon/like.svg') no-repeat center;
-  transition: all 0.4s ease-in-out;
 }
-
 .cards__like:hover {
-  opacity: 0.5;
-  cursor: pointer;
+  opacity: 50%;
+}
+.cards__like:active {
+  color:black;
 }

@@ -1,0 +1,8 @@
+.cards__info-area {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 246px;
+  height: 23px;
+}

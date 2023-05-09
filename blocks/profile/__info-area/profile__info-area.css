@@ -1,0 +1,16 @@
+.profile__info-area {
+  margin: 0 0 0 30px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(1, max-content);
+  align-items: center;
+  justify-content: center;
+  gap: 16px 18px;
+}
+@media screen and (max-width: 550px) {
+  .profile__info-area {
+    margin: 0 auto;
+    gap: 14px 10px;
+    text-align: center;
+  }
+}

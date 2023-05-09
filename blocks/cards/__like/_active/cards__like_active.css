@@ -1,5 +1,5 @@
 .cards__like_active:active {
-  background: transparent url('../../../../images/icon/like_active.svg') no-repeat center;
+  height: 19px;
+  background: url(/images/icon/like_active.svg);
   opacity: 1;
-  transition: none;
 }

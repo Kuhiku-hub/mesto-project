@@ -1,11 +1,13 @@
 .header__logo {
-  margin: 0 auto 41px auto;
   max-width: 142px;
+  max-height: 33px;
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: top;
 }
-
-@media screen and (max-width: 644px) {
+@media screen and (max-width: 550px) {
   .header__logo {
-    margin: 0 auto 31px 27px;
-    max-width: 103px;
+    margin: 0 0 0 27px;
+    width: 32.1875%;
   }
 }

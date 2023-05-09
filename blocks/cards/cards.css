@@ -2,22 +2,21 @@
   margin: 0 auto 66px auto;
   padding: 0;
   max-width: 880px;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 282px);
+  grid-template-columns: repeat(3, minmax(284px, 1fr));
   gap: 20px 17px;
-  box-sizing: border-box;
 }
-
-@media screen and (max-width: 929px) {
+@media screen and (max-width: 1128px) {
   .cards {
-    max-width: 600px;
-    justify-content: center;
+    grid-template-columns: repeat(2, minmax(284px, 1fr));
+    max-width: 584px;
   }
 }
-
-@media screen and (max-width: 644px) {
+@media screen and (max-width: 586px) {
   .cards {
-    margin: 0 auto 48px auto;
+    grid-template-columns: repeat(1, minmax(284px, 1fr));
     max-width: 282px;
+    margin: 0 auto 48px auto;
   }
 }
