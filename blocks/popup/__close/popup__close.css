@@ -3,9 +3,14 @@
   transform: translateY(-40px);
   width: 32px;
   height: 32px;
-  background: transparent center;
+  background: transparent url(/images/icon/close.svg) no-repeat center;
   border: none;
   position: fixed;
+  cursor: pointer;
+}
+.popup__close:hover {
+  opacity: 60%;
+  transition: 0.2s;
 }
 @media screen and (max-width: 480px) {
   .popup__close {

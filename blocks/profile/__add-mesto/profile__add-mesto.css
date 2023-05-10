@@ -1,9 +1,21 @@
 .profile__add-mesto {
-  width: 100%;
-  height: 100%;
-  background: center transparent;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 0 0 auto;
+  padding: 0;
+  min-width: 150px;
+  min-height: 50px;
+  border: 2px solid #FFF;
+  border-radius: 2px;
+  background: transparent url('/images/icon/add.svg') no-repeat center;
+  cursor: pointer;
+}
+.profile__add-mesto:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 550px) {
+  .profile__add-mesto {
+    min-width: 282px;
+    background-size: 16px;
+  }
 }

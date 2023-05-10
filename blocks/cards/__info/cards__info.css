@@ -1,7 +1,6 @@
 .cards__info {
   margin: 0;
-  padding: 0;
-  height: 79px;
+  padding: 25px 15px 31px 21px;
   display: flex;
   align-items: center;
   border-radius: 0 0 10px 10px;
