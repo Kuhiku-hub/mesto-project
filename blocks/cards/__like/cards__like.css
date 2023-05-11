@@ -3,7 +3,7 @@
   padding: 0;
   min-width: 22px;
   min-height: 19px;
-  background: transparent url(/images/icon/like.svg) no-repeat center;
+  background: transparent url('../../../images/icon/like.svg') no-repeat center;
   color: black;
   border: none;
   display: flex;

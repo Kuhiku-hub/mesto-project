@@ -10,7 +10,9 @@
 @media screen and (max-width: 550px) {
   .profile__info-area {
     margin: 0 auto 36px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 14px 10px;
-    text-align: center;
   }
 }
