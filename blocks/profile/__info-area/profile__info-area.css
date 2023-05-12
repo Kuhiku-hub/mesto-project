@@ -7,7 +7,7 @@
   justify-content: center;
   gap: 16px 18px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 642px) {
   .profile__info-area {
     margin: 0 auto 36px;
     display: flex;
